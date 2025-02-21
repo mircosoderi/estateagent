@@ -1,0 +1,6 @@
+services:
+  estateagent:
+    build: ./
+    image: estateagent
+    ports: 
+      - "80:80"
